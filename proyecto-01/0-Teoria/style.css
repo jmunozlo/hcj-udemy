@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: black;
+}
+
+.container-row {
+  background: gray;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.container-column {
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.uno {
+  background: #f32bf3;
+  height: 200px;
+  width: 200px;
+  border-radius: 1rem;
+}
+
+.dos {
+  background: #f23b00;
+  height: 200px;
+  width: 200px;
+  border-radius: 1rem;
+}
+.tres {
+  background: #df3;
+  height: 200px;
+  width: 200px;
+  border-radius: 1rem;
+}
