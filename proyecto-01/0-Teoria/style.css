@@ -3,35 +3,28 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  background: black;
 }
 
 .container {
   background: gray;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   height: 100vh;
-  gap: 50px;
+}
+
+.boxcontainer {
+  background: #7250ff;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .uno {
   background: #f32bf3;
-  height: 400px;
-  width: 400px;
-  border-radius: 1rem;
-}
-
-.dos {
-  background: #f23b00;
   height: 200px;
   width: 200px;
-  border-radius: 1rem;
-}
-.tres {
-  background: #df3;
-  height: 200px;
-  width: 200px;
-  border-radius: 1rem;
+  border-radius: 15px;
 }
